@@ -14,7 +14,7 @@ const MONGOOSE =
 mongoose
   .connect(MONGOOSE)
   .then((result) => {
-    app.listen(5000, "127.0.0.1", () => {
+    app.listen(8080, () => {
       console.log("server running!");
     });
   })
